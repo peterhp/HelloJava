@@ -8,7 +8,8 @@ import static org.junit.Assert.*;
 public class HelloTest {
 
     @Test
-    public void should_return_right_world() throws Exception {
-        assertEquals("Hello, Java!", Hello.say());
+    public void should_say_right_word_to_java() throws Exception {
+        assertEquals("Hello, Java!", Hello.sayToJava());
     }
+    
 }
