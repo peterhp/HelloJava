@@ -11,6 +11,6 @@ public class Hello {
     }
 
     public static String sayToGradle() {
-        return "Hello, gradlew!";
+        return "Hello, gradle!";
     }
 }
