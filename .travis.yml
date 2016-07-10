@@ -1,6 +1,7 @@
 language: java
 
-script: ./gradlew check
+script:
+    - ./gradlew build
 
 jdk:
     - oraclejdk8
