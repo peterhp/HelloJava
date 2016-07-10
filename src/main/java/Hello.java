@@ -5,4 +5,8 @@ public class Hello {
     public static String sayToJava() {
         return "Hello, Java!";
     }
+
+    public static String sayToWorld() {
+        return "Hello, world!";
+    }
 }

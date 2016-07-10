@@ -8,8 +8,14 @@ import static org.junit.Assert.*;
 public class HelloTest {
 
     @Test
-    public void should_say_right_word_to_java() throws Exception {
+    public void should_say_right_word_to_java()
+            throws Exception {
         assertEquals("Hello, Java!", Hello.sayToJava());
     }
-    
+
+    @Test
+    public void should_say_right_word_to_world()
+            throws Exception {
+        assertEquals("Hello, world!", Hello.sayToWorld());
+    }
 }
