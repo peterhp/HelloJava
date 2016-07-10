@@ -9,4 +9,8 @@ public class Hello {
     public static String sayToWorld() {
         return "Hello, world!";
     }
+
+    public static String sayToGradle() {
+        return "Hello, gradlew!";
+    }
 }

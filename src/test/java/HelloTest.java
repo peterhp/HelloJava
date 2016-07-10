@@ -18,4 +18,10 @@ public class HelloTest {
             throws Exception {
         assertEquals("Hello, world!", Hello.sayToWorld());
     }
+
+    @Test
+    public void should_say_right_word_to_gradle()
+            throws Exception {
+        assertEquals("Hello, gradle!", Hello.sayToGradle());
+    }
 }
