@@ -13,4 +13,8 @@ public class Hello {
     public static String sayToGradle() {
         return "Hello, gradle!";
     }
+
+    public static String sayToGradleWrapper() {
+        return "Hello, gradlew!";
+    }
 }

@@ -24,4 +24,10 @@ public class HelloTest {
             throws Exception {
         assertEquals("Hello, gradle!", Hello.sayToGradle());
     }
+
+    @Test
+    public void should_say_right_word_to_gradle_wrapper()
+            throws Exception {
+        assertEquals("Hello, gradlew!", Hello.sayToGradleWrapper());
+    }
 }
